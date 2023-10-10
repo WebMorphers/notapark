@@ -39,7 +39,7 @@ const navbar = () => {
         <ul className="hidden md:flex">
           <li className="p-4">
             <a
-              className="no-underline mx-4 cursor-pointer font-normal text-gray-900 hover:text-orange-600"
+              className="no-underline mx-4 cursor-pointer font-normal text-gray-900 hover:text-red-500"
               onClick={() => scrollToSection("about_us")}
               href="#about_us"
             >
@@ -48,7 +48,7 @@ const navbar = () => {
           </li>
           <li className="p-4">
             <a
-              className="no-underline mx-4 cursor-pointer font-normal text-gray-900 hover:text-orange-600"
+              className="no-underline mx-4 cursor-pointer font-normal text-gray-900 hover:text-red-500"
               onClick={() => scrollToSection("projects")}
               href="#projects"
             >
@@ -58,7 +58,7 @@ const navbar = () => {
           <li className="p-4">
             {" "}
             <a
-              className="no-underline mx-4 cursor-pointer font-normal	text-gray-900 hover:text-orange-600"
+              className="no-underline mx-4 cursor-pointer font-normal	text-gray-900 hover:text-red-500"
               onClick={() => scrollToSection("contact")}
               href="#contact"
             >
