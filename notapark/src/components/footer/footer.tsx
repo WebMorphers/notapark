@@ -9,11 +9,10 @@ const footer = () => {
               <li className=" text-xl ">COLLECTIONS</li>
               <li>
                 <a className="hover:text-amber-300" href="">
-                  VALINA HOODIE
-                </a>
+                Life of Skateboarders                </a>
               </li>
               <li>
-                <a className="hover:text-amber-300" href="">CHOCOLATE HOODIE</a>
+                <a className="hover:text-amber-300" href="">The Choice Is Yours</a>
               </li>
               <li>
                 <a className="hover:text-amber-300" href="">STRAWBERRY HOODIE</a>
