@@ -1,47 +1,96 @@
-import "./footer.css"
+import "./footer.css";
 const footer = () => {
   return (
-    <div >
-        <div className="flex flex-row  texxt   ">
-    <div className="w-full flex flex-row gap-24 ml-10 ">
-        <div>
+    <div className="texxt ">
+      <div className="flex    texxt ">
+        <div className="w-full flex flex-row gap-24 ml-10 max-md:flex-col max-md:text-sm  ">
+          <div>
             <ul>
-                <li className="text-xl ">COLLECTIONS</li>
-                <li>VALINA HOODIE</li>
-                <li>CHOCOLATE HOODIE</li>
-                <li>STRAWBERRY HOODIE</li> 
+              <li className=" text-xl ">COLLECTIONS</li>
+              <li>
+                <a className="hover:text-amber-300" href="">
+                  VALINA HOODIE
+                </a>
+              </li>
+              <li>
+                <a className="hover:text-amber-300" href="">CHOCOLATE HOODIE</a>
+              </li>
+              <li>
+                <a className="hover:text-amber-300" href="">STRAWBERRY HOODIE</a>
+                
+              </li>
             </ul>
+          </div>
+          <div>
+            <ul>
+              <li className="text-xl">ACCESORIES</li>
+              <li>
+                <a className="hover:text-amber-300" href="">
+                  ALL ACCESSORIES
+                </a>
+              </li>
+              <li>
+                <a className="hover:text-amber-300" href="">
+                  SHOES
+                </a>
+              </li>
+              <li>
+                <a className="hover:text-amber-300" href="">
+                  HATS
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li className="text-xl">SUPPORT</li>
+              <li>
+                <a className="hover:text-amber-300" href="">
+                  ABOUT US
+                </a>
+              </li>
+              <li>
+                <a className="hover:text-amber-300" href="">
+                  ITEMS
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div>
-            <ul>
-                <li className="text-xl">ACCESORIES</li>
-                <li>ALL ACCESSORIES</li>
-                <li>SHOES</li>
-                <li>HATS</li> 
-            </ul>
+          <ul className="mr-10">
+            <li className="text-xl">CONNECT</li>
+            <li>
+              <a className="hover:text-amber-300" href="">
+                INSTAGRAM
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-amber-300" href="">
+                FACEBOOK
+              </a>{" "}
+            </li>
+            <li>
+              <a className="hover:text-amber-300" href="">
+                TIKTOK
+              </a>{" "}
+            </li>
+          </ul>
         </div>
-        <div>
-            <ul>
-                <li className="text-xl">SUPPORT</li>
-                <li>ABOUT US</li>
-                <li>ITEMS</li> 
-            </ul>
-        </div> 
-         </div>
-         <div>
-            <ul className="mr-10">
-                <li className="text-xl">CONNECT</li>
-                <li>INSTAGRAM</li>
-                <li>FACEBOOK</li>
-                <li>TIKTOK</li> 
-            </ul>
-        </div> 
-        </div>
+      </div>
 
-<div className="w-full flex justify-center "><h1>MADE WITH LOVE BY <span>@webmorphers</span></h1> </div>
-         
-         </div>
-  )
-}
+      <div className="w-full flex justify-center ">
+        <h1>
+          MADE WITH LOVE BY{" "}
+          <span className="font-bold">
+            <a href="https://webmorphers.org" target="_blank">
+              @webmorphers
+            </a>
+          </span>
+        </h1>{" "}
+      </div>
+    </div>
+  );
+};
 
-export default footer
+export default footer;
