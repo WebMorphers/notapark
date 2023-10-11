@@ -1,9 +1,9 @@
 import "./footer.css";
 const footer = () => {
   return (
-    <div className="texxt ">
+    <div className="texxt p-6 ">
       <div className="flex flex-row max-md:flex-col gap-3  texxt ">
-        <div className=" w-full flex flex-row gap-24   max-md:gap-5 max-md:flex-col max-md:text-sm pl-12  ">
+        <div className=" w-full flex flex-row gap-24  max-md:gap-5 max-md:flex-col max-md:text-sm pl-12 ">
           <div>
             <ul>
               <li className=" text-xl ">COLLECTIONS</li>
