@@ -1,4 +1,5 @@
 import logo from '../../assets/logo1.png'
+import './nav.css'
 
 import { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -39,7 +40,7 @@ const navbar = () => {
         <ul className="hidden md:flex">
           <li className="p-4">
             <a
-              className="no-underline mx-4 cursor-pointer font-normal text-gray-900 hover:text-red-500"
+              className="no-underline mx-4 cursor-pointer font-normal text-gray-900 hover:text-red-500 qqsd "
               onClick={() => scrollToSection("about_us")}
               href="#about_us"
             >
@@ -48,7 +49,7 @@ const navbar = () => {
           </li>
           <li className="p-4">
             <a
-              className="no-underline mx-4 cursor-pointer font-normal text-gray-900 hover:text-red-500"
+              className="no-underline mx-4 cursor-pointer font-normal text-gray-900 hover:text-red-500 qqsd"
               onClick={() => scrollToSection("projects")}
               href="#projects"
             >
@@ -58,7 +59,7 @@ const navbar = () => {
           <li className="p-4">
             {" "}
             <a
-              className="no-underline mx-4 cursor-pointer font-normal	text-gray-900 hover:text-red-500"
+              className="no-underline mx-4 cursor-pointer font-normal	text-gray-900 hover:text-red-500 qqsd"
               onClick={() => scrollToSection("contact")}
               href="#contact"
             >
@@ -77,7 +78,7 @@ const navbar = () => {
         <ul
           className={
             nav
-              ? " fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-amber-700 ease-in-out duration-500"
+              ? " fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-amber-700 ease-in-out duration-500 "
               : "ease-in-out duration-500 fixed left-[-100%]"
           }
         >
@@ -86,7 +87,7 @@ const navbar = () => {
           </a>
           <li className="p-4 ">
             <a
-              className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"
+              className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 qqsd"
               onClick={() => scrollToSection("about_us")}
               href="#about_us"
             >
@@ -95,7 +96,7 @@ const navbar = () => {
           </li>
           <li className="p-4">
             <a
-              className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 "
+              className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 qqsd "
               onClick={() => scrollToSection("projects")}
               href="#projects"
             >
@@ -105,7 +106,7 @@ const navbar = () => {
           <li className="p-4">
             {" "}
             <a
-              className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 "
+              className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 qqsd "
               onClick={() => scrollToSection("contact")}
               href="#contact"
             >

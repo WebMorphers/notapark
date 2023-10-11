@@ -1,9 +1,11 @@
+ import "./hero.css"
  import im from '../../assets/image.png'
 const hero = () => {
   return (
     <>
-    <div> 
-    <img src={im} alt="" />
+    <div className='flex flex-col justify-center items-center  relative max-lg:mt-24 '> 
+    <img src={im} alt="" className='h-[55%] w-[55%]' />
+    <h1 className='text-4xl  max-sm:text-xl lg:text-6xl ' id='h1'>Hoodies that skate with you</h1>
 
     </div>
     </>
