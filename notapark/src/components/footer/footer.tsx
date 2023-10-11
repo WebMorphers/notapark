@@ -79,10 +79,10 @@ const footer = () => {
         </div>
       </div>
 
-      <div className="w-full flex justify-center ">
+      <div className="w-full flex justify-center mt-8 ">
         <h1>
           MADE WITH LOVE BY{" "}
-          <span className="font-bold">
+          <span className="text-xl">
             <a href="https://webmorphers.org" target="_blank">
               @webmorphers
             </a>
