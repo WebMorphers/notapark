@@ -6,7 +6,7 @@ const footer = () => {
     <div className="w-full flex flex-row gap-24 ml-10 ">
         <div>
             <ul>
-                <li className="text-xl mx-12">COLLECTIONS</li>
+                <li className="text-xl ">COLLECTIONS</li>
                 <li>VALINA HOODIE</li>
                 <li>CHOCOLATE HOODIE</li>
                 <li>STRAWBERRY HOODIE</li> 
