@@ -2,8 +2,10 @@
 const hero = () => {
   return (
     <>
-     <img src={im} alt="" />
-    
+    <div> 
+    <img src={im} alt="" />
+
+    </div>
     </>
   )
 }
