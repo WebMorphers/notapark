@@ -52,7 +52,7 @@ const Products = () => {
                 <div>
                   <div className='relative'>
                     <h1 className=' title text-xl'>{product.title}</h1>
-                    <div className='absolute right-2 top-1 my-auto bg-red-400 rounded-full px-3 text-sm'>
+                    <div className='absolute right-2 top-1 my-auto bg-red-500 rounded-full px-3 text-sm '>
                       {product.solde}
                     </div>
                   </div>
