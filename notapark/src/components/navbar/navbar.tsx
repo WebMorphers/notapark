@@ -32,7 +32,7 @@ const navbar = () => {
     }, []);
   
     return (
-      <div id="nav" className="flex w-full top-0 fixed justify-between items-center h-24 mx-auto px-4 bg-white      ">
+      <div id="nav" className="flex w-full top-0  sticky z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 justify-between items-center  mx-auto  bg-white      ">
         <a href="#" onClick={() => scrollToSection("hello")}>
             <img className="h-20 w-23" src={logo} alt="" />
           </a>

@@ -10,7 +10,7 @@ function App() {
   return (
       <> 
         <Navbar />
-        <div className='body'>
+        <div className='body flex flex-col gap-10 lg:gap-20'>
           <Hero />
           <Products />
         </div>
