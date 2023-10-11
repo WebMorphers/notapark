@@ -2,8 +2,8 @@ import "./footer.css";
 const footer = () => {
   return (
     <div className="texxt ">
-      <div className="flex flex-row max-md:flex-col   texxt ">
-        <div className="w-full flex flex-row gap-24 ml-10 max-md:gap-5 max-md:flex-col max-md:text-sm  ">
+      <div className="flex flex-row max-md:flex-col gap-3  texxt ">
+        <div className=" w-full flex flex-row gap-24   max-md:gap-5 max-md:flex-col max-md:text-sm pl-12  ">
           <div>
             <ul>
               <li className=" text-xl ">COLLECTIONS</li>
@@ -58,7 +58,7 @@ const footer = () => {
           </div>
         </div>
         <div>
-          <ul className="md:mr-10 max-md:ml-10">
+          <ul className="md:mr-10 max-md:pl-12  ">
             <li className="text-xl">CONNECT</li>
             <li>
               <a className="hover:text-amber-300" href="">
@@ -79,7 +79,7 @@ const footer = () => {
         </div>
       </div>
 
-      <div className="w-full flex justify-center mt-8 ">
+      <div className="w-full flex justify-center     ">
         <h1>
           MADE WITH LOVE BY{" "}
           <span className="text-xl">
