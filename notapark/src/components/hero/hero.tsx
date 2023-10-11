@@ -1,7 +1,10 @@
- 
+ import im from '../../assets/image.png'
 const hero = () => {
   return (
-    <div>hero</div>
+    <>
+     <img src={im} alt="" />
+    
+    </>
   )
 }
 

@@ -90,7 +90,7 @@ const navbar = () => {
               onClick={() => scrollToSection("about_us")}
               href="#about_us"
             >
-              ABOUT US
+              home
             </a>
           </li>
           <li className="p-4">
@@ -99,7 +99,7 @@ const navbar = () => {
               onClick={() => scrollToSection("projects")}
               href="#projects"
             >
-              OUR PROJECTS
+              About us
             </a>
           </li>
           <li className="p-4">
@@ -109,7 +109,7 @@ const navbar = () => {
               onClick={() => scrollToSection("contact")}
               href="#contact"
             >
-              CONTACT US
+              Our products
             </a>
           </li>
         </ul>
