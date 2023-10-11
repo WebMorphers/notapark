@@ -28,7 +28,7 @@ const products=[
 const Products = () => {
   return (
     <div>
-        <div className='grid lg:grid-cols-3 mx-12'>
+        <div className='grid lg:grid-cols-3 '>
             {products.map((product) =>(
             <div className='flex flex-col p-8'>
                 <div className='bg-gradient-to-t from-gray-500 to-slate-300 flex items-center justify-center'>
