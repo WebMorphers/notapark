@@ -4,14 +4,16 @@ import img3 from '../../assets/3.png';
 
 const About = () => {
   return (
-    <div className="bg-gray-200 p-4   ">
-      <h1 className="text-2xl mb-4">Unique Design, Limited Edition</h1>
+    <div className="bg-gray-200 p-4">
+      <h1 className="text-2xl mb-4">About Page</h1>
+      <div className='flex justify-center '>
+        <div className="relative w-full h-96 overflow-hidden left-0 right-0 transform -translate-1/2 ">
+          <img src={img1} alt="Image 1" className="absolute transition-transform transform hover:scale-125 max-sm:w-64" />
+          <img src={img2} alt="Image 2" className="absolute transition-transform transform hover:scale-125 ml-40  max-md:ml-32 max-sm:w-64 max-sm:ml-24 " />
+          <img src={img3} alt="Image 3" className="absolute transition-transform transform hover:scale-125 ml-96  max-md:ml-64 max-sm:w-64 max-sm:ml-48" />
+        </div>
 
-      <div className="flex justify-center items-center">
-        <a href="#1"><img src={img1} alt="Image 1" className="transition-transform transform hover:scale-125" /></a>
-        <a href="#2"><img src={img2} alt="Image 2" className="transition-transform transform hover:scale-125" /></a>
-        <a href="#2"><img src={img3} alt="Image 3" className="transition-transform transform hover:scale-125" /></a>
-      </div>
+    </div>
     </div>
   );
 };
