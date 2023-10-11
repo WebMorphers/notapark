@@ -36,7 +36,7 @@ const products=[
   ]
 const Products = () => {
   return (
-    <div>
+    <div id='products'>
         <div className='grid lg:grid-cols-3 '>
             {products.map((product) =>(
             <div className='flex  flex-col m-8 p-4 pt-0 px-0 rounded hover:shadow cursor-pointer'>

@@ -60,7 +60,7 @@ const navbar = () => {
             <a
               className="no-underline mx-4 cursor-pointer font-normal	text-gray-900 hover:text-red-500"
               onClick={() => scrollToSection("contact")}
-              href="#contact"
+              href="#products"
             >
               Our products
             </a>
