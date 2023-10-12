@@ -31,35 +31,39 @@ const footer = () => {
             <ul>
               <li className=" text-xl ">COLLECTIONS</li>
               <li>
-                <a className="hover:text-amber-300" href="#">
-                  Life of Skateboarders{" "}
+                <a className="hover:text-amber-300" href="#" 
+                onClick={() => scrollToSection("products")}>
+                  LIFE OF SKATEBOARDERS
                 </a>
               </li>
               <li>
-                <a className="hover:text-amber-300" href="#">
-                  The Choice Is Yours
+                <a className="hover:text-acmber-300" href="#" 
+                onClick={() => scrollToSection("products")}>
+                  THE CHOICE IS YOURS
                 </a>
               </li>
               <li>
-                <a className="hover:text-amber-300" href="#">
-                  STRAWBERRY HOODIE
+                <a className="hover:text-amber-300" href="#" 
+                onClick={() => scrollToSection("products")}>
+                  SKATE BLAZE
                 </a>
               </li>
             </ul>
           </div>
-           
+
           <div>
             <ul>
               <li className="text-xl">SUPPORT</li>
               <li>
-                <a className="hover:text-amber-300" href="#">
-                  ABOUT US
+                <a className="hover:text-amber-300" href="#whyus"
+                onClick={() => scrollToSection("whyus")}>
+                  WHY US
                 </a>
               </li>
               <li>
                 <a
                   className="hover:text-amber-300"
-                  href="#"
+                  href="#products"
                   onClick={() => scrollToSection("products")}
                 >
                   ITEMS
