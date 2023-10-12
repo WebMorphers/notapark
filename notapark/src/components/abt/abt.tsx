@@ -3,9 +3,9 @@ import { Typewriter } from 'react-simple-typewriter'
 const abt = () => {
   return (
    
-    <div className='flex flex-col justify-center items-center gap-8 p-12 my-20  texxt' id='whyus'>
-         <h1 className='text-3xl '>Why Chose US ?</h1>
-         <p className='max-w-4xl leading-8 text-center'>
+    <div className='flex flex-col justify-center items-center gap-8 p-12 my-20  ' id='whyus'>
+         <h1 className='text-3xl dddd '>Why Chose US ?</h1>
+         <p className='max-w-4xl leading-8 text-center texxt'>
   At Notapark, we're more than just a clothing brand;
   we're a representation of individuality and self-expression.
   Our journey began with a simple idea:
@@ -14,7 +14,7 @@ const abt = () => {
   it's a canvas for your personality, your passions, and your lifestyle.
 </p>
 
-         <div className='text-3xl text-amber-500'>
+         <div className='text-3xl text-amber-500 texxt'>
         <Typewriter
     words={['Unique Designe', 'Limited Edition', 'Superior Quality', 'Made In Morocco']}
     loop={false}
