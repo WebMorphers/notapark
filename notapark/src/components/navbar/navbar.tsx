@@ -41,7 +41,7 @@ const navbar = () => {
             <a
               className="no-underline mx-4 cursor-pointer font-normal text-gray-900 hover:text-red-500"
               onClick={() => scrollToSection("about_us")}
-              href="#about_us"
+              href="https://www.instagram.com/direct/t/17847188751065713" target='-blank'
             >
               Contact Us
             </a>
@@ -107,7 +107,7 @@ const navbar = () => {
             <a
               className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 "
               onClick={() => scrollToSection("contact")}
-              href="#contact"
+              href="https://www.instagram.com/direct/t/17847188751065713" target='-blank'
             >
               CONTACT US
             </a>
