@@ -11,6 +11,7 @@ const About = () => {
         <a href="#1"><img src={img1} alt="Image 1" className="transition-transform transform hover:scale-125 " /></a>
         <a href="#2"><img src={img2} alt="Image 2" className="transition-transform transform hover:scale-125" /></a>
         <a href="#2"><img src={img3} alt="Image 3" className="transition-transform transform hover:scale-125" /></a>
+       
       </div>
     </div>
   );
