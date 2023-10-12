@@ -26,7 +26,7 @@ const products=[
   },
     {
     id:3,
-    title: "Papers Reviewing",
+    title: "Skate Blaze",
     solde:"",
     description:"The perfect blend of style and comfort. Get yours now! ",
     size:"S M L XL",
