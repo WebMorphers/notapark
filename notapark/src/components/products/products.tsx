@@ -41,20 +41,21 @@ const Products = () => {
             {products.map((product) =>(
             <div className='flex  flex-col m-8 p-4 pt-0 px-0 rounded hover:shadow cursor-pointer'>
                 <div className='bg-gradient-to-t relative from-gray-500 to-slate-300 flex items-center justify-center'>
-                    <img src={product.image} />
-                    <div className='absolute top-2 right-2 text-xs font-semibold bg-amber-400 p-1 px-2 rounded-3xl border-2 pointer-events-none border-black bg-opacity-50'>
-                    {product.size}
-                </div>
-                <div className='absolute top-2 left-2 text-xs font-semibold bg-gray-600 p-1 px-2 rounded-3xl bg-opacity-50 pointer-events-none'>
-                    {product.quality}
-                </div>
+                  <img src={product.image} />
+                  <div className='absolute top-2 right-2 text-xs font-semibold bg-amber-400 p-1 px-2 rounded-3xl border-2 pointer-events-none border-black bg-opacity-50'>
+                  {product.size}
+                  </div>
+                  <div className='absolute top-2 left-2 text-xs font-semibold bg-gray-600 p-1 px-2 rounded-3xl bg-opacity-50 pointer-events-none'>
+                  {product.quality}
+                  </div>
+                  <div className='absolute bottom-2 right-2 my-auto bg-red-500 rounded-full px-3 text-sm '>
+                    {product.solde}
+                  </div>
                 </div>
                 <div>
                   <div className='relative'>
                     <h1 className=' title text-xl'>{product.title}</h1>
-                    <div className='absolute right-2 top-1 my-auto bg-red-500 rounded-full px-3 text-sm '>
-                      {product.solde}
-                    </div>
+                    
                   </div>
                     <p className='description opacity-90 text-sm '>{product.description}</p>
                 </div>
