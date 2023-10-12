@@ -47,26 +47,7 @@ const footer = () => {
               </li>
             </ul>
           </div>
-          <div>
-            <ul>
-              <li className="text-xl">ACCESORIES</li>
-              <li>
-                <a className="hover:text-amber-300" href="#">
-                  ALL ACCESSORIES
-                </a>
-              </li>
-              <li>
-                <a className="hover:text-amber-300" href="#">
-                  SHOES
-                </a>
-              </li>
-              <li>
-                <a className="hover:text-amber-300" href="#">
-                  HATS
-                </a>
-              </li>
-            </ul>
-          </div>
+           
           <div>
             <ul>
               <li className="text-xl">SUPPORT</li>
