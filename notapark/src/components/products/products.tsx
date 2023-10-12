@@ -37,9 +37,12 @@ const products=[
 const Products = () => {
   return (
     <div id='products'>
+        <div>
+          <h1 className='text-3xl lg:mx-8 titre font-semibold '>Popular products</h1>
+        </div>
         <div className='grid lg:grid-cols-3 pb-28 '>
             {products.map((product) =>(
-            <div className='flex  flex-col m-8 p-4 pt-0 px-0 rounded hover:shadow cursor-pointer'>
+            <div className='flex  flex-col my-8 lg:m-8 p-4 pt-0 px-0 rounded hover:shadow cursor-pointer'>
                 <div className='bg-gradient-to-t relative from-gray-500 to-slate-300 flex items-center justify-center'>
                   <img src={product.image} />
                   <div className='absolute top-2 right-2 text-xs font-semibold bg-amber-400 p-1 px-2 rounded-3xl border-2 pointer-events-none border-black bg-opacity-50'>

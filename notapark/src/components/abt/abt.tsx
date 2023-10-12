@@ -4,7 +4,7 @@ const abt = () => {
   return (
    
     <div className='flex flex-col justify-center items-center gap-8 p-12 my-20  ' id='whyus'>
-         <h1 className='text-3xl dddd '>Why Chose US ?</h1>
+         <h1 className='text-3xl dddd font-semibold'>Why Chose US ?</h1>
          <p className='max-w-4xl leading-8 text-center texxt'>
   At Notapark, we're more than just a clothing brand;
   we're a representation of individuality and self-expression.
