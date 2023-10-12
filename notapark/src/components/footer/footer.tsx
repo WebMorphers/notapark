@@ -1,22 +1,49 @@
 import "./footer.css";
+import { useEffect } from "react";
+
 const footer = () => {
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
+  useEffect(() => {
+    const internalLinks = document.querySelectorAll('a[href^="#"]');
+    internalLinks.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute("href")?.slice(1);
+        if (targetId) {
+          scrollToSection(targetId);
+        }
+      });
+    });
+  }, []);
   return (
     <div className="texxt p-6 ">
-      <div className="flex flex-row max-md:flex-col gap-3  texxt ">
+      <div className="flex flex-row max-sm:flex-col gap-3  texxt ">
         <div className=" w-full flex flex-row gap-24  max-md:gap-5 max-md:flex-col max-md:text-sm pl-12 ">
           <div>
             <ul>
               <li className=" text-xl ">COLLECTIONS</li>
               <li>
-                <a className="hover:text-amber-300" href="">
-                Life of Skateboarders                </a>
+                <a className="hover:text-amber-300" href="#">
+                  Life of Skateboarders{" "}
+                </a>
               </li>
               <li>
-                <a className="hover:text-amber-300" href="">The Choice Is Yours</a>
+                <a className="hover:text-amber-300" href="#">
+                  The Choice Is Yours
+                </a>
               </li>
               <li>
-                <a className="hover:text-amber-300" href="">STRAWBERRY HOODIE</a>
-                
+                <a className="hover:text-amber-300" href="#">
+                  STRAWBERRY HOODIE
+                </a>
               </li>
             </ul>
           </div>
@@ -24,17 +51,17 @@ const footer = () => {
             <ul>
               <li className="text-xl">ACCESORIES</li>
               <li>
-                <a className="hover:text-amber-300" href="">
+                <a className="hover:text-amber-300" href="#">
                   ALL ACCESSORIES
                 </a>
               </li>
               <li>
-                <a className="hover:text-amber-300" href="">
+                <a className="hover:text-amber-300" href="#">
                   SHOES
                 </a>
               </li>
               <li>
-                <a className="hover:text-amber-300" href="">
+                <a className="hover:text-amber-300" href="#">
                   HATS
                 </a>
               </li>
@@ -44,12 +71,16 @@ const footer = () => {
             <ul>
               <li className="text-xl">SUPPORT</li>
               <li>
-                <a className="hover:text-amber-300" href="">
+                <a className="hover:text-amber-300" href="#">
                   ABOUT US
                 </a>
               </li>
               <li>
-                <a className="hover:text-amber-300" href="">
+                <a
+                  className="hover:text-amber-300"
+                  href="#"
+                  onClick={() => scrollToSection("products")}
+                >
                   ITEMS
                 </a>
               </li>
@@ -57,22 +88,16 @@ const footer = () => {
           </div>
         </div>
         <div>
-          <ul className="md:mr-10 max-md:pl-12  ">
+          <ul className="md:mr-10 max-sm:pl-12  ">
             <li className="text-xl">CONNECT</li>
             <li>
-              <a className="hover:text-amber-300" href="">
+              <a
+                className="hover:text-amber-300"
+                target="-blank"
+                href=" https://www.instagram.com/nota.park/"
+              >
                 INSTAGRAM
               </a>
-            </li>
-            <li>
-              <a className="hover:text-amber-300" href="">
-                FACEBOOK
-              </a>{" "}
-            </li>
-            <li>
-              <a className="hover:text-amber-300" href="">
-                TIKTOK
-              </a>{" "}
             </li>
           </ul>
         </div>

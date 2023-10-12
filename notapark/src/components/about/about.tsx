@@ -4,9 +4,8 @@ import img3 from '../../assets/3.png';
 
 const About = () => {
   return (
-    <div className="bg-gray-200 p-4">
-      <h1 className="text-2xl mb-4">About Page</h1>
-      <div className='flex items-center'>
+    <div className="bg-gray-200 p-4 py-36">
+       <div className='flex items-center'>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 ">
         <img
           src={img1}

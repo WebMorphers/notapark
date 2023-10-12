@@ -43,16 +43,16 @@ const navbar = () => {
               onClick={() => scrollToSection("about_us")}
               href="#about_us"
             >
-              home
+              Contact Us
             </a>
           </li>
           <li className="p-4">
             <a
               className="no-underline mx-4 cursor-pointer font-normal text-gray-900 hover:text-red-500"
-              onClick={() => scrollToSection("projects")}
-              href="#projects"
+              onClick={() => scrollToSection("whyus")}
+              href="#whyus"
             >
-              About us
+              Why Us
             </a>
           </li>
           <li className="p-4">
@@ -87,10 +87,10 @@ const navbar = () => {
           <li className="p-4 ">
             <a
               className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"
-              onClick={() => scrollToSection("about_us")}
-              href="#about_us"
+              onClick={() => scrollToSection("whyus")}
+              href="#whyus"
             >
-              ABOUT US
+              Why Us
             </a>
           </li>
           <li className="p-4">
@@ -99,7 +99,7 @@ const navbar = () => {
               onClick={() => scrollToSection("projects")}
               href="#projects"
             >
-              OUR PROJECTS
+              Our products
             </a>
           </li>
           <li className="p-4">

@@ -3,7 +3,7 @@ import im from "../../assets/image.png";
 const hero = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center  ">
+      <div className="flex flex-col justify-center items-center pb-12  " id="hello">
         <img src={im} alt="" className="h-auto w-[55%] object-cover max-sm:w-[100%] " />
         <h1
           className="text-4xl  max-sm:text-xl lg:text-6xl "

@@ -7,6 +7,8 @@ import Products from './components/products/products'
 import About from './components/about/about'
 import Deliv from './components/deliv/deliv'
 import Insta from './components/insta'
+import Abt from './components/abt/abt'
+
 
 
 
@@ -22,6 +24,7 @@ function App() {
           <Products />
         </div>
         <Deliv />
+        <Abt />
         <About />
         <Footer />
         
