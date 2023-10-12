@@ -7,7 +7,7 @@ const insta = () => {
     <div className=" block lg:hidden">
       <button
         onClick={handleButtonClick}
-        className="fixed flex justify-center rounded-[50%] bg-inherited border-2 border-[black] bottom-20 right-10 w-10 h-10 items-center cursor-pointer transition-transform transform hover:scale-125 group bg-white "
+        className="fixed flex justify-center rounded-[50%] bg-inherited border-2 border-[black] bottom-20 right-10 w-10 h-10 items-center cursor-pointer transition-transform transform hover:scale-125 group bg-white z-50"
       >
         <img src={ins} alt="Instagram" className="w-6 h-6  " />
       </button>
