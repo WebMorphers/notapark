@@ -24,7 +24,7 @@ const footer = () => {
     });
   }, []);
   return (
-    <div className="texxt p-6 ">
+    <div className="texxt p-6 bg-slate-300 ">
       <div className="flex flex-row max-sm:flex-col gap-3  texxt ">
         <div className=" w-full flex flex-row gap-24  max-md:gap-5 max-md:flex-col max-md:text-sm pl-12 ">
           <div>
