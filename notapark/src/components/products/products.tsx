@@ -48,14 +48,14 @@ const Products = () => {
                   <div className='absolute top-2 left-2 text-xs font-semibold bg-gray-600 p-1 px-2 rounded-3xl bg-opacity-50 pointer-events-none'>
                   {product.quality}
                   </div>
-                  <div className='absolute bottom-2 right-2 my-auto bg-red-500 rounded-full px-3 text-sm '>
-                    {product.solde}
-                  </div>
+                  
                 </div>
                 <div>
-                  <div className='relative'>
+                  <div className='flex justify-between'>
                     <h1 className=' title text-xl'>{product.title}</h1>
-                    
+                    <div className=' bottom-2 right-2 my-auto bg-red-500 rounded-full px-3 text-sm '>
+                    {product.solde}
+                  </div>
                   </div>
                     <p className='description opacity-90 text-sm '>{product.description}</p>
                 </div>
